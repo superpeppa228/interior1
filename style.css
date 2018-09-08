@@ -917,7 +917,7 @@ height: 71px;
     line-height: 70px;
 }
 .ordertext a:hover{
-    background: #f44336 url(../img/whitearrow.img.png) no-repeat 416px 22px;
+    background: #f44336 url(img/whitearrow.img.png) no-repeat 416px 22px;
 }
 .suggested{
     height:600px;
