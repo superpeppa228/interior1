@@ -24,6 +24,10 @@
 width: 1366px;
 height: 360px;
 }
+.header4 {
+width: 1366px;
+height: 119px;
+}
 .header1 .logo {
     margin-left: 98px;
     margin-top: 75px;
@@ -32,7 +36,10 @@ height: 360px;
     margin-left: 98px;
     margin-top: 75px;
 }
-
+.header4 .logo {
+    margin-left: 98px;
+    margin-top: 75px;
+}
 .menu {
     float: right;
     margin-right: 167px;
@@ -628,8 +635,8 @@ width: 270px;
 height: 270px;
 }
 .productActive img {
-padding-top: 62px;
-padding-left: 111px;
+margin-top: 62px;
+margin-left: 111px;
 }
 .product1:hover .productActive {
 display:block;
@@ -790,3 +797,130 @@ font-weight: 300;
 line-height: 20.082px;/* Приближение из-за подстановки шрифтов */
 text-align: center;
 }
+.product1menu{
+    height:70px;
+    display:block;
+    background-color:  #f4f4f4;
+width: 1366px;
+height: 70px;
+    position:relative;
+}
+.product1list{
+            margin-left:360px;
+        margin-top:28px;
+    position:absolute;
+}
+.product1list li{
+    display:inline-block;
+    float:left;
+    list-style-type: none;
+}
+.product1list li a {
+ font-family: Montserrat;
+color:  #6c6c6c;
+font-size: 17.99px;/* Приближение из-за подстановки шрифтов */
+font-weight: 700;
+text-align: center;
+    display:block;
+    text-decoration: none;
+    padding: 0 20px;
+}
+.product1menu li a:hover {
+font-family: Montserrat;
+color:  #212121;
+font-size: 17.99px;/* Приближение из-за подстановки шрифтов */
+font-weight: 700;
+text-align: center;
+        display:block;
+    text-decoration: none;
+    padding: 0 20px;
+}
+.orderitem{
+    margin-top:72px;
+    height:750px;
+    position:relative;
+}
+.ordertext{
+    display:block;
+    float:right;
+    width:520px;
+    position:absolute;
+    margin-left:724px;
+    margin-top:47px;
+}
+.orderchair{
+    width:624px;
+    margin-left:98px;
+    position:absolute;
+}
+.minimenu{
+    height:70px;
+    display:block;
+    float:left;
+    margin-left:150px;
+}
+.minimenu li{
+    display:inline-block;
+    list-style-type: none;
+    padding:10px;
+}
+.ordertext h2{
+    font-family: Montserrat;
+color:  #212121;
+font-size: 35.98px;/* Приближение из-за подстановки шрифтов */
+font-weight: 700;
+text-align: center;
+}
+.ordertext h3{
+    font-family: Montserrat;
+color:  #e53935;
+font-size: 18px;/* Приближение из-за подстановки шрифтов */
+font-weight: 700;
+line-height: 48px;/* Приближение из-за подстановки шрифтов */
+text-align: center;
+    margin-bottom:10px;
+}
+.ordertext h1{
+    font-family: Montserrat;
+color:  #212121;
+font-size: 36px;/* Приближение из-за подстановки шрифтов */
+font-weight: 300;
+line-height: 48px;/* Приближение из-за подстановки шрифтов */
+text-align: center;
+    margin-bottom:31px;
+}
+.ordertext p{
+    margin-top:50px;
+    font-family: Montserrat;
+color:  #212121;
+font-size: 16px;/* Приближение из-за подстановки шрифтов */
+font-weight: 300;
+line-height: 24px;/* Приближение из-за подстановки шрифтов */
+text-align: left;
+}
+.ordertext a{
+    display:block;
+    font-family: Montserrat;
+font-family: Montserrat;
+color:  #ffffff;
+font-size: 21.99px;/* Приближение из-за подстановки шрифтов */
+font-weight: 700;
+line-height: 24px;/* Приближение из-за подстановки шрифтов */
+text-align: center;
+    background:  #f44336;
+box-shadow: 0px 2px 4.85px 0.15px rgba(33, 33, 33, 0.35);
+width: 510px;
+height: 71px;
+    border-radius: 45px;
+    text-align: center;
+    text-decoration: none;
+    line-height: 70px;
+}
+.ordertext a:hover{
+    background: #f44336 url(../img/whitearrow.img.png) no-repeat 416px 22px;
+}
+.suggested{
+    height:600px;
+    margin-bottom:120px;
+}
+
